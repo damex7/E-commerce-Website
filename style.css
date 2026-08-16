@@ -699,6 +699,61 @@ footer, .footer{
     z-index: -9;
 }
 
+/* About Page */
+#about-head{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    /* background-color: red; */
+}
+
+#about-head img{
+    width: 300px;
+    height: auto;
+}
+
+/* Contact Page */
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.contact-details .details{
+    width: 40%;
+}
+
+.contact-details .details span{
+    font-size: 12px;
+}
+
+.contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+.contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px 0;
+}
+
+.contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 540px){
     .nav-bar{
         padding: 0;
@@ -748,5 +803,10 @@ footer, .footer{
         position: absolute;
         right: 15px;
         color: white;
+    }
+
+    /* About Page */
+    #about-head{
+        flex-wrap: wrap;
     }
 }
